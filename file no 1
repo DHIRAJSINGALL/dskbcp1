@@ -12,6 +12,10 @@ else :
 # kbc question no 1
 if question=="a":
     print("what doesnt grow on tree ?",)
+    print("aa:money")
+    print("ab:flower")
+    print("ac:leaves")
+    print("ad:fruits")
 answer1= input("enter the answer:", )
 aa= "money"
 ab= "flower"
@@ -19,6 +23,46 @@ ac= "leaves"
 ad= "fruits"
 if answer1=="aa":
     print("your answer is correct",)
+    print("here is your question", )
+    print("which country is the largest producer of coffee in the world ?")
+    print("ae:USA")
+    print("af:india")
+    print("ag:brazil")
+    print("ah:ethopia")
 else:
     print("your answer is wrong")
+    
+#kbc question no 2
+if question=="b":
+    print("enter the answer: ",)
+answer2= input("enter the answer: ",)    
+ae= "USA"
+af= "india"
+ag= "brazil"
+ah= "ethopia"
+
+if answer2=="ag":
+    print("the answer is correct")
+    print("what is not the state of india")
+    print("ai:maharastra")
+    print("aj:Goa")
+    print("ak:Chattisghar")
+    print("al:karnataka")
+else:
+    print("the answer is wrong")
+
+    
+#kbc question no 3
+if question=="3":
+    print("enter the answer: ",)
+answer3= input("enter the answer: ",)    
+ai="maharastra"
+aj="Goa"
+ak="Chattisghar"
+al= "karnataka"
+
+if answer3=="aj":
+    print("the answer is correct")
+else:
+    print("the answer is wrong")
 
