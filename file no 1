@@ -1,0 +1,24 @@
+question= input("enter the question: ")
+a= "a"
+b="b"
+c="c"
+if question=="a":
+    print("here is your question", )
+elif question=="b":
+    print("here is your question", b)
+else :
+    print("here is your question", c)
+    
+# kbc question no 1
+if question=="a":
+    print("what doesnt grow on tree ?",)
+answer1= input("enter the answer:", )
+aa= "money"
+ab= "flower"
+ac= "leaves"
+ad= "fruits"
+if answer1=="aa":
+    print("your answer is correct",)
+else:
+    print("your answer is wrong")
+
