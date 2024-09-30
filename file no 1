@@ -23,7 +23,7 @@ ac= "leaves"
 ad= "fruits"
 if answer1=="aa":
     print("your answer is correct",)
-    print("here is your question", )
+    print("\n\nhere is your question", )
     print("which country is the largest producer of coffee in the world ?")
     print("ae:USA")
     print("af:india")
@@ -31,6 +31,7 @@ if answer1=="aa":
     print("ah:ethopia")
 else:
     print("your answer is wrong")
+    #break
     
 #kbc question no 2
 if question=="b":
@@ -43,7 +44,7 @@ ah= "ethopia"
 
 if answer2=="ag":
     print("the answer is correct")
-    print("what is not the state of india")
+    print("\n\nwhat is not the state of india")
     print("ai:maharastra")
     print("aj:Goa")
     print("ak:Chattisghar")
@@ -65,4 +66,3 @@ if answer3=="aj":
     print("the answer is correct")
 else:
     print("the answer is wrong")
-
